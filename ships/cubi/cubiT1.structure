@@ -1,0 +1,24 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "cubiT1.png",
+      "position" : [-32.5, 8.25],
+      "fullbright" : true
+    },
+    {
+      "image" : "cubiT1lit.png",
+      "position" : [-32.5, 8.25]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "cubiT1blocks.png"
+}

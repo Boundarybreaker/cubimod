@@ -1,0 +1,35 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 12
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "cubiT8_1.png",
+      "position" : [131.86, 20.75],
+      "fullbright" : true
+    },
+    {
+      "image" : "cubiT8_1lit.png",
+      "position" : [131.86, 20.75]
+    },
+    
+    {
+      "image" : "cubiT8_2.png",
+      "position" : [11.61, 20.75],
+      "fullbright" : true
+    },
+    
+    {
+      "image" : "cubiT8_2lit.png",
+      "position" : [11.61, 20.75]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "cubiT8blocks.png"
+}

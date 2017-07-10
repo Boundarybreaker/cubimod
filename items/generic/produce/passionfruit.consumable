@@ -1,0 +1,22 @@
+{
+  "itemName" : "passionfruit",
+  "rarity" : "Common",
+  "price" : 120,
+  "inventoryIcon" : "passionfruit.png",
+  "description" : "A plump, soft fruit. Even a single bite of it causes your heart to race.",
+  "shortdescription" : "Passion Fruit",
+  "handPosition" : [2, 0],
+  "effects" : [ [
+  {
+        "effect" : "runboost",
+        "duration" : 10
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

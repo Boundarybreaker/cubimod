@@ -1,0 +1,19 @@
+[
+	//#Region: Species Registration
+	[
+		//This patch will register the race you are creating and assign it an ID,
+		//without it, your race will never load.
+		
+		{ "op": "add", "path": "/species/-", "value" : "cubi" }
+	],
+	
+	//#Region: Starting codices 
+	[
+		//This path sets the starting codices for your race, by convention the codices named
+		//"protectorate1" and "protectorate2" should always be included.
+		//
+		//If your wish is to create more codices, a template is available in the codex folder.
+		
+		{ "op" : "add", "path" : "/defaultCodexes/cubi" , "value" : [ "protectorate1", "protectorate2", "cubihistory1" ] }
+	]
+]

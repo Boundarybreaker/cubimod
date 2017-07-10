@@ -1,0 +1,15 @@
+{
+	"id" : "cubihistory1",
+	"title" : "Databank Record no. 1927",
+	"description" : "A report from the Protectorate xenobiological databanks.",
+	"icon" : "cubicover1.png",
+	"contentPages" : [
+	"Common Name: Cubus (pl. Cubi), aka Succubi \nScientific Name: Homo Aphroditus Sapiens \nHome Planet: OX-3119 \"Ramona.\" \n\nA race of seductive, parasitoid subhumans created by the planet-sized superorganism OX-3119 \"Ramona.\" "
+
+  ],
+
+  "itemConfig" : {
+	"rarity" : "common",
+	"price" : 25
+  }
+}

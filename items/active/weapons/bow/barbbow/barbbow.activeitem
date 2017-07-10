@@ -1,0 +1,44 @@
+{
+  "itemName" : "barbbow",
+  "price" : 960,
+  "inventoryIcon" : "barbbow.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "Fire tortuous barbed hooks at your enemies!",
+  "shortdescription" : "Barb Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+
+  "level" : 3,
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "barbbowfull.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/npc/monsters/orbide_wakeup.ogg"],
+      "release" : [ "/sfx/npc/monsters/taroni_throw.ogg" ],
+      "perfectRelease" : [ "/sfx/npc/monsters/orbide_windup2.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "harpoon",
+    "powerProjectileType" : "chargedharpoon",
+    "projectileParameters" : {
+      "power" : 6.5
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

@@ -1,0 +1,84 @@
+{
+  "objectName" : "passionseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Produces fruit filled with passion.",
+  "shortdescription" : "Passion Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "Smells horrible, but tastes like heaven.",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+  "cubiDescription" : "A healthy alternative to devouring other sapients.",
+
+  "inventoryIcon" : "passionseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "passionseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "passionfruit",
+            "count" : 1
+          },
+          {
+            "name" : "passionseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "passionfruit",
+            "count" : 1
+          },
+          {
+            "name" : "fleshstrand",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "passionfruit",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 420],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 420],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

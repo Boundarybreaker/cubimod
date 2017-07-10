@@ -1,0 +1,17 @@
+{
+  "name" : "cubiwings",
+  "type" : "legs",
+
+  "scripts" : ["cubiwings.lua"],
+  "animator" : "cubiwings.animation",
+
+  "description" : "Lets you glide, fly, and climb at the cost of energy!",
+  "shortDescription" : "Cubus Wings",
+  "rarity" : "Legendary",
+  "icon" : "/tech/cubiwings.png",
+
+  "chipCost" : 8,
+
+  "multiJumpCount" : 40,
+  "multiJumpModifier" : 1
+}

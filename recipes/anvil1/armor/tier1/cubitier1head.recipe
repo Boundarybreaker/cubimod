@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "string", "count" : 5 }  
+  ],
+  "duration" : 1,
+  "output" : { "item" : "cubitier1head", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

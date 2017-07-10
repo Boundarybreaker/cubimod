@@ -1,0 +1,23 @@
+[
+	//#Region: Ship Registration
+	[
+		{
+			//This patch determines which ship should be used for your species at any tier.
+			//If you wish to create your own ships, change the paths to your .structure files.
+			//Note: we do not provide template for ships.
+			"op" : "add",
+			"path" : "/speciesShips/cubi",
+			"value" : [
+				"/ships/cubi/cubiT0.structure",
+				"/ships/cubi/cubiT1.structure",
+				"/ships/cubi/cubiT2.structure",
+				"/ships/cubi/cubiT3.structure",
+				"/ships/cubi/cubiT4.structure",
+				"/ships/cubi/cubiT5.structure",
+				"/ships/cubi/cubiT6.structure",
+				"/ships/cubi/cubiT7.structure",
+				"/ships/cubi/cubiT8.structure"
+			]
+		}
+	]
+]

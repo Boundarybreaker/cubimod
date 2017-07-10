@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 8
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "cubiT6.png",
+      "position" : [55, 34],
+      "fullbright" : true
+    },
+    {
+      "image" : "cubiT6lit.png",
+      "position" : [55, 34]
+    }
+  ],
+
+  "blockKey" : "blockKey2.config:blockKey",
+  "blockImage" : "cubiT6blocks.png"
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "passionshake",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "passionshake.png",
+  "description" : "A sweet, thick slushie made with passionfruit and toxictop. The smell is invigorating.",
+  "shortdescription" : "Passionshake",
+  "effects" : [ [
+      {
+        "kind" : "runboost",
+        "percentage" : 50
+      }
+    ] ],
+  "emote" : ""
+}

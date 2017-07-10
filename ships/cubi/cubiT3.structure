@@ -1,0 +1,24 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "cubiT3.png",
+      "position" : [-32.5, 8.25],
+      "fullbright" : true
+    },
+    {
+      "image" : "cubiT3lit.png",
+      "position" : [-32.5, 8.25]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "cubiT3blocks.png"
+}
